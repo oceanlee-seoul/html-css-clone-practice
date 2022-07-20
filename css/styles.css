@@ -1,7 +1,11 @@
 @import "reset.css"; /* Reset.css 브라우저의 기본적인 Margin, Padding 등 설정 값을 초기화 */
 @import "variables.css";
+
 /* Components */
 @import "./components/status-bar.css";
+@import "./components/nav-bar.css";
+@import "./components/screen-header.css";
+
 /* Screens */
 @import "./screens/index.css";
 
