@@ -28,17 +28,19 @@ body {
 #no-mobile {
   position: absolute;
   top: 0;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
   background-color: red;
-  z-index: 99;
+  z-index: 100;
   color: white;
   font-size: 32px;
   font-weight: 600;
 }
+
 @media screen and (max-width: 550px) and (orientation: portrait) {
   #no-mobile {
     display: none;
