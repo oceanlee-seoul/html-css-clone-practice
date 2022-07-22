@@ -25,3 +25,22 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+#no-mobile {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  z-index: 99;
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+@media screen and (max-width: 550px) and (orientation: portrait) {
+  #no-mobile {
+    display: none;
+  }
+}
