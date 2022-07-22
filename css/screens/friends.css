@@ -1,0 +1,32 @@
+.friends-names-link {
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 15px 0px;
+}
+.friends-names-link i {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: var(--blue);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+.friends-screen__channel {
+  padding: 10px 0px;
+  border-top: var(--border);
+}
+
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.3);
+}
+.friends-screen__channel-header i {
+  color: var(--blue);
+}
+
+.friends-screen__channel .user-component .user-component__column:last-child i {
+  color: var(--blue);
+}

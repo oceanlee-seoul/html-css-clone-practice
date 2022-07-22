@@ -1,0 +1,10 @@
+.user-component__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: var(--blue);
+  color: white;
+}
