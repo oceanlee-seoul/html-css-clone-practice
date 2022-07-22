@@ -29,4 +29,39 @@
   color: white;
   right: -6px;
   top: -2px;
+  animation: notificationAnimation 3s ease-in-out infinite;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.nav__button {
+  transform: translateY(60px);
+  animation: appearBtnAnimation 1s ease-in-out forwards;
+}
+.nav__button:nth-child(2) {
+  animation-delay: 0.33s;
+}
+.nav__button:nth-child(3) {
+  animation-delay: 0.66s;
+}
+.nav__button:last-child {
+  animation-delay: 0.99s;
 }

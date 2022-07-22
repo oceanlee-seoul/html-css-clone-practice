@@ -6,12 +6,17 @@
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
+@import "./components/icon-row.css";
+@import "./components/alt-screen-header.css";
 
 /* Screens */
 @import "./screens/index.css";
 @import "./screens/friends.css";
 @import "./screens/chats.css";
 @import "./screens/find.css";
+@import "./screens/more.css";
+@import "./screens/settings.css";
+@import "./screens/chat.css";
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;

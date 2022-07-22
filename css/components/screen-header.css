@@ -14,3 +14,16 @@
 .header__icons span {
   margin-left: 20px;
 }
+
+.header__icons .fa-gear:hover {
+  animation: rotateGear 1s linear infinite;
+}
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

@@ -12,23 +12,6 @@
   background-color: var(--blue);
 }
 
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-
-  padding-bottom: 10px;
-}
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.find-icons__icon i {
-  font-size: 64px;
-  margin-bottom: 10px;
-}
-
 .recommended-friends {
   padding: 25px 0px;
   margin: 25px 0px;
@@ -136,4 +119,22 @@
 }
 .open-chat__components-column:last-child span i {
   margin-right: 5px;
+}
+
+.fa-heart:hover {
+  will-change: transform;
+  animation: heartBeatAnimation 1s linear infinite;
+}
+
+@keyframes heartBeatAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+    color: red;
+  }
+  100% {
+    transform: none;
+  }
 }
